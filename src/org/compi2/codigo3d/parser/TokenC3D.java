@@ -2,7 +2,7 @@ package org.compi2.codigo3d.parser;
 
 /**
  *
- * @author esvux
+ * @author Guillen
  */
 public class TokenC3D {
     
