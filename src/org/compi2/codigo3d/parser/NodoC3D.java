@@ -7,11 +7,18 @@ package org.compi2.codigo3d.parser;
  * @author esvux
  */
 public class NodoC3D {
-    private String cad;
-
+    public String cad;
+    public String lv = "";
+    public String lf = "";
+    public String codigo = "";
     public NodoC3D(String cad) {
         this.cad = cad;
     }
+
+    public NodoC3D() {
+    }
+    
+    
     
     public String getCad(){
         return cad;
